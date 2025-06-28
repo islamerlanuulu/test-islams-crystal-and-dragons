@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60126F4E2E101DE70098C83E /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60126F4D2E101DE70098C83E /* Route.swift */; };
+		60C66D082E0D241C003AAE6C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C66D052E0D241C003AAE6C /* main.swift */; };
+		60C66D092E0D241C003AAE6C /* CrystalAndDragonsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C66D062E0D241C003AAE6C /* CrystalAndDragonsViewModel.swift */; };
+		60C66D0E2E0D26D4003AAE6C /* CrystalAndDragonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C66D0D2E0D26D4003AAE6C /* CrystalAndDragonsView.swift */; };
+		60C66D102E0D313A003AAE6C /* PositionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C66D0F2E0D313A003AAE6C /* PositionModel.swift */; };
+		60C66D122E0D31BB003AAE6C /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C66D112E0D31BB003AAE6C /* ItemModel.swift */; };
+		60C66D142E0D3219003AAE6C /* RoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C66D132E0D3219003AAE6C /* RoomModel.swift */; };
+		60C66D162E0D323A003AAE6C /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C66D152E0D323A003AAE6C /* PlayerModel.swift */; };
+		60C66D182E0D33DE003AAE6C /* WorldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C66D172E0D33DE003AAE6C /* WorldModel.swift */; };
+		60C66D1B2E0D42D6003AAE6C /* WorldFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C66D1A2E0D42D6003AAE6C /* WorldFactory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		606E5CEB2E0C0BF5008BE850 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		60126F4D2E101DE70098C83E /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		606E5CED2E0C0BF5008BE850 /* CrystalsAndDragons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CrystalsAndDragons; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C66D052E0D241C003AAE6C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		60C66D062E0D241C003AAE6C /* CrystalAndDragonsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrystalAndDragonsViewModel.swift; sourceTree = "<group>"; };
+		60C66D0D2E0D26D4003AAE6C /* CrystalAndDragonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrystalAndDragonsView.swift; sourceTree = "<group>"; };
+		60C66D0F2E0D313A003AAE6C /* PositionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionModel.swift; sourceTree = "<group>"; };
+		60C66D112E0D31BB003AAE6C /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		60C66D132E0D3219003AAE6C /* RoomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomModel.swift; sourceTree = "<group>"; };
+		60C66D152E0D323A003AAE6C /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		60C66D172E0D33DE003AAE6C /* WorldModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldModel.swift; sourceTree = "<group>"; };
+		60C66D1A2E0D42D6003AAE6C /* WorldFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldFactory.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		606E5CEA2E0C0BF5008BE850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		606E5CE42E0C0BF5008BE850 = {
+			isa = PBXGroup;
+			children = (
+				60C66D072E0D241C003AAE6C /* CrystalsAndDragons */,
+				606E5CEE2E0C0BF5008BE850 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		606E5CEE2E0C0BF5008BE850 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				606E5CED2E0C0BF5008BE850 /* CrystalsAndDragons */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60C66D072E0D241C003AAE6C /* CrystalsAndDragons */ = {
+			isa = PBXGroup;
+			children = (
+				60C66D0A2E0D24E0003AAE6C /* Model */,
+				60C66D0B2E0D24E9003AAE6C /* View */,
+				60C66D0C2E0D24F0003AAE6C /* ViewModel */,
+				60C66D192E0D420B003AAE6C /* Services */,
+				60C66D052E0D241C003AAE6C /* main.swift */,
+			);
+			path = CrystalsAndDragons;
+			sourceTree = "<group>";
+		};
+		60C66D0A2E0D24E0003AAE6C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60C66D0F2E0D313A003AAE6C /* PositionModel.swift */,
+				60C66D112E0D31BB003AAE6C /* ItemModel.swift */,
+				60C66D132E0D3219003AAE6C /* RoomModel.swift */,
+				60C66D152E0D323A003AAE6C /* PlayerModel.swift */,
+				60C66D172E0D33DE003AAE6C /* WorldModel.swift */,
+				60126F4D2E101DE70098C83E /* Route.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		60C66D0B2E0D24E9003AAE6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				60C66D0D2E0D26D4003AAE6C /* CrystalAndDragonsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		60C66D0C2E0D24F0003AAE6C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				60C66D062E0D241C003AAE6C /* CrystalAndDragonsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		60C66D192E0D420B003AAE6C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				60C66D1A2E0D42D6003AAE6C /* WorldFactory.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		606E5CEC2E0C0BF5008BE850 /* CrystalsAndDragons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 606E5CF42E0C0BF5008BE850 /* Build configuration list for PBXNativeTarget "CrystalsAndDragons" */;
+			buildPhases = (
+				606E5CE92E0C0BF5008BE850 /* Sources */,
+				606E5CEA2E0C0BF5008BE850 /* Frameworks */,
+				606E5CEB2E0C0BF5008BE850 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrystalsAndDragons;
+			packageProductDependencies = (
+			);
+			productName = CrystalsAndDragons;
+			productReference = 606E5CED2E0C0BF5008BE850 /* CrystalsAndDragons */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		606E5CE52E0C0BF5008BE850 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					606E5CEC2E0C0BF5008BE850 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 606E5CE82E0C0BF5008BE850 /* Build configuration list for PBXProject "CrystalsAndDragons" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 606E5CE42E0C0BF5008BE850;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 606E5CEE2E0C0BF5008BE850 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				606E5CEC2E0C0BF5008BE850 /* CrystalsAndDragons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		606E5CE92E0C0BF5008BE850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C66D1B2E0D42D6003AAE6C /* WorldFactory.swift in Sources */,
+				60C66D122E0D31BB003AAE6C /* ItemModel.swift in Sources */,
+				60C66D102E0D313A003AAE6C /* PositionModel.swift in Sources */,
+				60C66D142E0D3219003AAE6C /* RoomModel.swift in Sources */,
+				60C66D082E0D241C003AAE6C /* main.swift in Sources */,
+				60C66D182E0D33DE003AAE6C /* WorldModel.swift in Sources */,
+				60C66D0E2E0D26D4003AAE6C /* CrystalAndDragonsView.swift in Sources */,
+				60C66D092E0D241C003AAE6C /* CrystalAndDragonsViewModel.swift in Sources */,
+				60126F4E2E101DE70098C83E /* Route.swift in Sources */,
+				60C66D162E0D323A003AAE6C /* PlayerModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		606E5CF22E0C0BF5008BE850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		606E5CF32E0C0BF5008BE850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		606E5CF52E0C0BF5008BE850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		606E5CF62E0C0BF5008BE850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		606E5CE82E0C0BF5008BE850 /* Build configuration list for PBXProject "CrystalsAndDragons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606E5CF22E0C0BF5008BE850 /* Debug */,
+				606E5CF32E0C0BF5008BE850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		606E5CF42E0C0BF5008BE850 /* Build configuration list for PBXNativeTarget "CrystalsAndDragons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				606E5CF52E0C0BF5008BE850 /* Debug */,
+				606E5CF62E0C0BF5008BE850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 606E5CE52E0C0BF5008BE850 /* Project object */;
+}
