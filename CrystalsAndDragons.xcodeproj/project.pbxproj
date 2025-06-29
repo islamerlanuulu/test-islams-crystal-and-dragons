@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		60126F4E2E101DE70098C83E /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60126F4D2E101DE70098C83E /* Route.swift */; };
+		60126F502E1109E10098C83E /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60126F4F2E1109E10098C83E /* GameService.swift */; };
 		60C66D082E0D241C003AAE6C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C66D052E0D241C003AAE6C /* main.swift */; };
 		60C66D092E0D241C003AAE6C /* CrystalAndDragonsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C66D062E0D241C003AAE6C /* CrystalAndDragonsViewModel.swift */; };
 		60C66D0E2E0D26D4003AAE6C /* CrystalAndDragonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C66D0D2E0D26D4003AAE6C /* CrystalAndDragonsView.swift */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		60126F4D2E101DE70098C83E /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		60126F4F2E1109E10098C83E /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
 		606E5CED2E0C0BF5008BE850 /* CrystalsAndDragons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CrystalsAndDragons; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C66D052E0D241C003AAE6C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		60C66D062E0D241C003AAE6C /* CrystalAndDragonsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrystalAndDragonsViewModel.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				60C66D1A2E0D42D6003AAE6C /* WorldFactory.swift */,
+				60126F4F2E1109E10098C83E /* GameService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60126F502E1109E10098C83E /* GameService.swift in Sources */,
 				60C66D1B2E0D42D6003AAE6C /* WorldFactory.swift in Sources */,
 				60C66D122E0D31BB003AAE6C /* ItemModel.swift in Sources */,
 				60C66D102E0D313A003AAE6C /* PositionModel.swift in Sources */,
