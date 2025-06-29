@@ -11,10 +11,6 @@ struct WorldModel {
     var rooms: [PositionModel: RoomModel]
     var player: PlayerModel
     var itemsMap: [PositionModel: [ItemModel]]
-    
-    func contains(_ position: PositionModel) -> Bool {
-        return rooms[position] != nil
-    }
 }
 
 
